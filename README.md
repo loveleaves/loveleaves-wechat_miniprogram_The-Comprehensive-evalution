@@ -46,7 +46,7 @@
 
 ##### 如何下载代码?
 
-> 点击[下载地址](https://github.com//loveleaves/wechat_miniprogram_CE/archive/main.zip)，即可下载。
+> 点击[下载地址](https://github.com/loveleaves/loveleaves-wechat_miniprogram_The-Comprehensive-evalution/archive/master.zip)，即可下载。
 
 ##### 如何将代码导入到开发者工具？
 
