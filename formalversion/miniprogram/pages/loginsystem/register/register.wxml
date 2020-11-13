@@ -1,0 +1,20 @@
+
+<view class="login_box">
+  <view class="section">
+    <input placeholder="请输入姓名" placeholder-class="color" bindblur='username' />
+    <image src="../images/username.png"></image>
+  </view>
+  <view class="section">
+    <input type='number' maxlength='11' placeholder="请输入学号" placeholder-class="color" bindblur='mobile' />
+    <image src="../images/mobile.png"></image>
+  </view>
+  <view class="section">
+    <input password="true" placeholder="请输入密码" placeholder-class="color" bindblur='pass1' />
+    <image src="../images/pass.png"></image>
+  </view>
+  <view class="section">
+    <input password="true" placeholder="确认密码" placeholder-class="color" bindblur='pass2' />
+    <image src="../images/pass.png"></image>
+  </view>
+  <button class="register" type="warn" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">注册</button>
+</view>

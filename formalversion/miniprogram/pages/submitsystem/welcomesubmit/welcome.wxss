@@ -1,0 +1,93 @@
+.bg_box {
+  width: 100%;
+  height: 100%;
+}
+.bg_box image {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.content_box{
+  width: 90%;
+  position: absolute;
+  top: 1%;
+  left: 5%;
+}
+.title {
+  margin-top: 30rpx;
+  font-size: larger;
+  text-align: center;
+}
+.code{
+  font-style: normal;
+  text-align: center;
+  margin-top:60rpx;
+  margin-bottom: 10rpx;
+  position: relative;
+ }
+.btn {  
+  position: relative;
+  width: 80%;
+  left: 70rpx;
+  margin-top: 320rpx;
+  padding: 20rpx 0;  
+  border-radius: 10rpx;  
+  text-align: center;  
+  background: #008000;
+  color: #fff;  
+}
+/*mask*/  
+.drawer_screen {  
+  width: 100%;  
+  height: 100%;  
+  position: fixed;  
+  top: 0;  
+  left: 0;  
+  z-index: 1000;  
+  background: #000;  
+  opacity: 0.5;  
+  overflow: hidden;  
+}
+/*content*/  
+.drawer_box {  
+  width: 650rpx;  
+  overflow: hidden;  
+  position: fixed;  
+  top: 50%;  
+  left: 0;  
+  z-index: 1001;  
+  background: #FAFAFA;  
+  margin: -150px 50rpx 0 50rpx;  
+  border-radius: 3px;  
+}
+.drawer_title{  
+  padding:15px;  
+  font: 20px "microsoft yahei";  
+  text-align: center;  
+}  
+.drawer_content {  
+  height: 210px;  
+  overflow-y: scroll; /*超出父盒子高度可滚动*/  
+}
+
+.top{  
+    padding-top:8px;  
+}  
+.bottom {  
+    padding-bottom:8px;  
+}
+  
+.button_base {  
+    border: 2rpx solid #ccc;  
+    margin-left: 50rpx;
+    text-align: center;
+    margin-right: 50rpx;
+    margin-top: 20rpx;
+}  
+.button_h30{  
+    height: 30px;  
+    line-height: 30px;  
+}
+
+.grid { display: -webkit-box; display: box; }   
+.col-1 {-webkit-box-flex:1;box-flex:1;}  

@@ -1,0 +1,48 @@
+<view class="bg_box" style="opacity:{{0.5}}">
+  <image src="../images/other_bg.png"> </image>
+</view>
+<view class="content_box">
+  <view class="sub_title">成绩</view>
+<view class="input_score">
+  <text>G41成绩：</text>
+  <input type="digit" placeholder="输入G41成绩" value = '{{G41Score}}' bindinput="addScore1" disabled='{{boolfirst}}' placeholder-style="color:#ffffff"></input>
+</view>
+<view class="sub_title">证明材料</view>
+<view class="images_box">
+  <block wx:key="imgbox" wx:for="{{imgbox}}">
+   <view class='img-box'>
+    <image class='img' src='{{item}}'></image>
+    <view class='img-delect' data-deindex='{{index}}' bindtap='imgDelete1'>
+     <image class='img' src='../images/del.png'></image>  
+    </view>
+   </view>
+  </block>
+  <view class='img-box' hidden="{{boolfirst}}" bindtap='addPic1' wx:if="{{imgbox.length<9}}">
+   <image class='img' src='../images/add.png'></image>  
+  </view>
+ </view>
+<button class="upload_data" bindtap='fb' type = "primary"  disabled='{{boolfirst}}'>上传成绩与支撑材料</button>
+<!-- 状态栏 -->
+<view class="sub_title">状态</view>
+<view class="code" wx:if="{{boolfirst == true}}">
+  <text style="color:#ffffff">当前提交状态：</text>
+  <text style="color:#00ff00">G41部分提交完毕</text>
+</view>
+<view class="code" wx:elif="{{boolfirst == false}}">
+  <text style="color:#ffffff">当前提交状态：</text>
+  <text style="color:#ff0000">G41部分尚未提交</text>
+</view>
+<view class="code" wx:if="{{boolsecond == true}}">
+  <text style="color:#ffffff">当前审核状态：</text>
+  <text style="color:#00ff00">G41部分审核完毕</text>
+</view>
+<view class="code" wx:elif="{{boolsecond == false}}">
+  <text style="color:#ffffff">当前审核状态：</text>
+  <text style="color:#ffD700">G41部分尚未审核</text>
+</view>
+<!--跳转栏-->
+<view class="prove_item">
+  <button bindtap="stepforward" type = "primary" size = "mini">转至G3部分</button>
+  <button bindtap="stepbackward" type = "primary" size = "mini">转至G42部分</button>
+</view>
+</view>

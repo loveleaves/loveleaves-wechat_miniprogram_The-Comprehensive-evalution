@@ -1,0 +1,34 @@
+<view class="bg_box" style="opacity:{{0.3}}">
+  <image src="../images/login.png"></image>
+</view>
+
+<view class="content_box">
+  <button style="top:30rpx" bindtap = "onQuery" type="primary">获取数据</button>
+  <view class="code">当前G3分数：{{summary}}</view>
+  <swiper indicator-dots="true" indicator-color="#fff" indicator-active-color="#ff0000" class="photo">
+   <swiper-item wx:for="{{imgUrls}}">
+    <image src='{{item}}' bindtap = 'preview' mode='widthFix' class='img' />
+   </swiper-item>
+  </swiper>
+  <button class="code" bindtap = "checkpass" disabled='{{boolfirst}}' type="primary">审核通过</button>
+  <button class="code" bindtap = "editPhone"disabled='{{boolsecond}}' type="warn">审核不通过</button>
+  <view class='pop_bg' hidden='{{!isEdit}}'>
+  <form>
+    <view class='pop_box'>
+      <view class='title'>
+        退回原因
+      </view>
+      <input placeholder-class='inputholder' maxlength = '20' placeholder="{{phoneNum}}" bindinput='blurPhone'></input>
+      <view class='btn_box'>
+        <view class='btn_cancel' bindtap='editPhone'>
+          取消
+        </view>
+        <view class='btn_sub' bindtap='formSubmit'>
+          确定
+        </view>
+      </view>
+    </view>
+    </form>
+  </view>
+  <button class="get_back" bindtap = "getback" type="primary">回到主页面</button>
+</view>
