@@ -1,6 +1,6 @@
 # 部署说明
 
-1、下载该压缩包并解压，安装包的下载地址为：。
+1、下载该压缩包并解压，[点击下载](https://github.com/loveleaves/loveleaves-wechat_miniprogram_The-Comprehensive-evalution/archive/master.zip)。
 
 2、打开微信开发者工具，选择左上角项目—导入项目，目录选择为解压的路径，AppID需要在微信公众平台—开发—开发设置中获取。
 
