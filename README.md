@@ -14,23 +14,23 @@
 
 ​      学生成绩提交首页，点击订阅授权可实现消息推送。  
 
-![首页](image/1.png)
+![首页](./image/1.png)
 
 ​      各项成绩、材料提交
 
-![各项成绩、证明材料提交](image/2.png)
+![各项成绩、证明材料提交](./image/2.png)
 
 ​    填写各科成绩，自动计算对应成绩
 
-![各科成绩计算](image/3.png)
+![各科成绩计算](./image/3.png)
 
 ​      老师审核端审核各项，点击预览图可放大  
 
-![老师审核各项](image/4.png)
+![老师审核各项](./image/4.png)
 
 ​       订阅实现消息推送
 
-<img src="image/5.jpg" width=30% height=30%>
+<img src="./image/5.jpg" width=30% height=30%>
 
 
 
@@ -38,7 +38,7 @@
 
 ##### 项目体验小程序二维码  
 
-<img src="image/6.png" alt="6" style="zoom:80%;" />
+<img src="./image/6.png" alt="6" style="zoom:80%;" />
 
 ## 部署教程  
 
@@ -46,13 +46,13 @@
 
 ##### 如何下载代码?
 
-> 点击[下载地址](https://github.com//loveleaves/wechat_miniprogram_CE/archive/main.zip)，即可下载。
+> 点击[下载地址](https://github.com/loveleaves/loveleaves-wechat_miniprogram_The-Comprehensive-evalution/archive/master.zip)，即可下载。
 
 ##### 如何将代码导入到开发者工具？
 
 > 进入小程序开发者工具，点击左侧小程序，再点击右侧 ‘+’ 号，然后在右侧上面选中导入项目选中刚才下载的压缩包解压后的文件夹，AppID填写你自己的，后端服务选择 ‘小程序 云开发’，点击确认即可导入。
 
-> 详细步骤见[部署说明](deployment.md)
+> 详细步骤见[部署说明](./deployment.md)
 
 ##### 哪些参数需要修改？
 
@@ -80,4 +80,4 @@
 
 ## 开源许可证标注  
 
-详见[LICENSE](https://github.com/loveleaves/wechat_miniprogram_The-Comprehensive-evalution/blob/master/LICENSE)
+详见[LICENSE](./LICENSE)
