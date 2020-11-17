@@ -2,11 +2,11 @@
 <view class="login_box">
   <view class="section">
     <input placeholder="请输入管理员账号" value='{{mobile}}' placeholder-class="color" bindblur='mobile' />
-    <image src="../images/username.png"></image>
+    <image src="../../images/username.png"></image>
   </view>
   <view class="section">
     <input password='true' placeholder="请输入密码" value='{{pass}}' placeholder-class="color" bindblur='pass' />
-    <image src="../images/pass.png"></image>
+    <image src="../../images/pass.png"></image>
   </view>
   <button class="login" type="primary" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">管理员登录</button>
 </view>

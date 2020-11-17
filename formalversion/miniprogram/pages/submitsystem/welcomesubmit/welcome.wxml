@@ -1,5 +1,5 @@
 <view class="bg_box" style="opacity:{{0.3}}">
-  <image src="../images/other_bg.png"> </image>
+  <image src="../../images/other_bg.png"> </image>
 </view>
 
 <view class="content_box">
@@ -23,15 +23,15 @@
         <navigator url="../G1submit/G1submit">G1</navigator>
       </view>  
       <view class="button_base button_h30 col-1">
-        <navigator url="../G21submit/G21submit">G21</navigator>
+        <navigator url="../G3submit/G3submit">G3</navigator>
       </view>  
     </view>
     <view class="top grid">  
       <view class="button_base button_h30 col-1">
-        <navigator url="../G22submit/G22submit">G22</navigator>
+        <navigator url="../G21submit/G21submit">G21</navigator>
       </view>  
       <view class="button_base button_h30 col-1">
-        <navigator url="../G3submit/G3submit">G3</navigator>
+        <navigator url="../G22submit/G22submit">G22</navigator>
       </view>
     </view>  
     <view class="top grid">  

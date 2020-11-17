@@ -1,5 +1,5 @@
 <view class="bg_box" style="opacity:{{0.5}}">
-  <image src="../images/other_bg.png"></image>
+  <image src="../../images/other_bg.png"></image>
 </view>
 
 <view class="content_box">

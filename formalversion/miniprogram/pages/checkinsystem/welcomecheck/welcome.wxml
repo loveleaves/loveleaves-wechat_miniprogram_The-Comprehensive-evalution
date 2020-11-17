@@ -1,5 +1,5 @@
 <view class="bg_box" style="opacity:{{0.5}}">
-  <image src="../images/login.png"></image>
+  <image src="../../images/login.png"></image>
 </view>
 
 <button class="btn" bindtap="powerDrawer" data-statu="open">审核列表</button>
@@ -16,15 +16,15 @@
         <navigator url="../G1check/G1check">G1</navigator>
       </view>  
       <view class="button_base button_h30 col-1">
-        <navigator url="../G21check/G21check">G21</navigator>
+        <navigator url="../G3check/G3check">G3</navigator>
       </view>  
     </view>
     <view class="top grid">  
       <view class="button_base button_h30 col-1">
-        <navigator url="../G22check/G22check">G22</navigator>
+        <navigator url="../G21check/G21check">G21</navigator>
       </view>  
       <view class="button_base button_h30 col-1">
-        <navigator url="../G3check/G3check">G3</navigator>
+        <navigator url="../G22check/G22check">G22</navigator>
       </view>
     </view>  
     <view class="top grid">  

@@ -70,8 +70,8 @@
       "list": [
         {
           "id": 0,
-          "name": "pages/checkinsystem/welcomecheck/welcome",
-          "pathName": "pages/checkinsystem/welcomecheck/welcome",
+          "name": "pages/submitsystem/welcomesubmit/welcome",
+          "pathName": "pages/submitsystem/welcomesubmit/welcome",
           "query": "",
           "scene": null
         }
