@@ -1,0 +1,75 @@
+.content_box{
+  width: 90%;
+  position: absolute;
+  left: 5%;
+}
+.bg_box {
+  width: 100%;
+  height: 100%;
+}
+.bg_box image {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.sub_title{
+  font-size: larger;
+  color: #ffffff;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.input_score{
+  width: 100;
+  margin: 40rpx;
+  color: #ffffff;
+  border-bottom: 4rpx solid #ffffff;
+  display: flex;
+}
+.prove_item{
+  position: relative;
+  margin-bottom: 30rpx;
+  top: 60rpx;
+  flex: 3;
+  display: flex;
+}
+.code{
+ margin-top: 20rpx;
+ margin-bottom: 10rpx;
+ position: relative;
+}
+.upload_data{
+  padding: 3%;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+ /* 图片 */
+ .images_box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+ }
+ .img-box{
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 25rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+ }
+ /* 删除图片 */
+ .img-delect{
+  width:50rpx;
+  height:50rpx;
+  border-radius:50%;
+  position:absolute;
+  right:-20rpx;
+  top:-20rpx;
+ }
+ .img{
+  width: 100%;
+  height: 100%;
+ }
