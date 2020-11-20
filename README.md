@@ -38,7 +38,7 @@
 
 ##### 项目体验小程序二维码  
 
-<img src="./image/6.png" alt="6" style="zoom:80%;" />
+<img src="./image/6.png" alt="二维码" style="zoom:80%;" />
 
 ## 部署教程  
 
@@ -80,4 +80,4 @@
 
 ## 开源许可证标注  
 
-详见[LICENSE](./LICENSE)
+采用MIT licens,详见[LICENSE](./LICENSE)
