@@ -30,7 +30,7 @@
 
 ​       订阅实现消息推送
 
-<img src="./image/5.jpg" width=30% height=30%>
+<img src="./image/5.jpg" alt="订阅实现" width=30% height=30%>
 
 
 
@@ -80,4 +80,4 @@
 
 ## 开源许可证标注  
 
-采用MIT licens,详见[LICENSE](./LICENSE)
+采用MIT license,详见[LICENSE](./LICENSE)
