@@ -1,0 +1,42 @@
+.title{
+  margin-top: 10%;
+  margin-left: 35%;
+  font-size: larger;
+}
+
+.login_box{
+  width: 90%;
+  position: relative;
+  margin-top: 15%;
+  left: 5%;
+}
+.section{
+  width: 100%;
+  border-bottom: 4rpx solid #d4d4d4;
+  margin-top: 40rpx;
+  position: relative;
+}
+.section input{
+  height: 100rpx;
+  color: #b4b4b4;
+  box-sizing: border-box;
+  padding-left: 80rpx;
+  font-size: 36rpx;
+}
+.section image{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 20rpx;
+  left: 10rpx;
+}
+.color{
+  color: #b4b4b4;
+}
+.register{
+  margin-top: 200rpx;
+}
+.register{
+  background: #fa5151 !important;
+  color: #FFF !important;
+}

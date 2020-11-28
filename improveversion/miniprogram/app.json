@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/loginsystem/login/login",
+    "pages/loginsystem/register/register",
+    "pages/loginsystem/admin/admin",
+    "pages/loginsystem/admin_register/admin_register",
+    "pages/submitsystem/welcomesubmit/welcome",
+    "pages/submitsystem/G1submit/G1submit",
+    "pages/submitsystem/G21submit/G21submit",
+    "pages/submitsystem/G22submit/G22submit",
+    "pages/submitsystem/G41submit/G41submit",
+    "pages/submitsystem/G3submit/G3submit",
+    "pages/submitsystem/G42submit/G42submit",
+    "pages/submitsystem/G43submit/G43submit",
+    "pages/checkinsystem/welcomecheck/welcome",
+    "pages/checkinsystem/G1check/G1check",
+    "pages/checkinsystem/G21check/G21check",
+    "pages/checkinsystem/G22check/G22check",
+    "pages/checkinsystem/G3check/G3check",
+    "pages/checkinsystem/G41check/G41check",
+    "pages/checkinsystem/G42check/G42check",
+    "pages/checkinsystem/G43check/G43check"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#dedede",
+    "navigationBarTitleText": "综测审核小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
